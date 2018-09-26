@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doges</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+<body>
+<div>
+    <button>Click Me!</button>
+<div class="dogs">
+
+</div>
+</div>
+<script id="show-dogs" type="text/x-handlebars-template">
+    {{#each Dogs}}
+    <div> Name : {{name}} 
+    </br>
+        Age :  {{age}}</div>
+    {{/each}}
+        
+</script>
+        <script src="\jquery\dist\jquery.js"></script>
+        <script src="\handlebars\dist\handlebars.js"></script>
+        <script src="main.js"></script>
+</body>
+</html>
